@@ -13,7 +13,7 @@ $ sudo apt install uvicorn
 ## To run aplication
 $ uvicorn main:app --reload
 
-## $o run testes integration
+## To run testes integration
 $ pytest teste_main.py
 
 ### OBS: Ao iniciar o programa a API carrega os dados do CSV conforme formato disponibilizado ("movielist.csv")
