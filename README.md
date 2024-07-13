@@ -27,7 +27,7 @@ curl --location --request POST 'http://127.0.0.1:8000/movies' \
         "title": "Alex: Last Blood",
         "studios": "Lionsgate",
         "producer": "Avi Lerner, Kevin King Templeton, Yariv Lerner, and Les Weldon",
-        "winner": "Yes"
+        "winner": "yes"
     }'
 ```
 
@@ -40,7 +40,7 @@ curl --location -g --request PUT 'http://127.0.0.1:8000/movies/{movieId}' \
         "title": "Alex: Last Blood",
         "studios": "Lionsgate",
         "producer": "Avi Lerner, Kevin King Templeton, Yariv Lerner, and Les Weldon",
-        "winner": "Yes"
+        "winner": "yes"
     }'
 ```
 
